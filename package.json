@@ -7,17 +7,26 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.5",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.15",
+    "eslint-plugin-next-on-pages": "^1.13.5",
     "next": "^14.2.15",
     "nextra": "^3.0.8",
     "nextra-theme-docs": "^3.0.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "wrangler": "^3.80.4"
   },
   "devDependencies": {
     "@types/node": "22.7.5",

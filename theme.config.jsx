@@ -1,8 +1,9 @@
 import { useConfig } from 'nextra-theme-docs';
 import Title from './src/component/Title';
 
-export default {
+const config = {
   head() {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { title } = useConfig();
     return (
       <title>{title} - Hayase 문서</title>
@@ -27,3 +28,5 @@ export default {
     content: '수정하기'
   },
 }
+
+export default config;
