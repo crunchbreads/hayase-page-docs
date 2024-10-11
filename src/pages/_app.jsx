@@ -13,10 +13,10 @@ export default function App({ Component, pageProps }) {
         <meta property="og:site_name" content="Hayase 문서" />
         <meta property="og:description" content="Hayase 디스코드 봇 문서" />
         <meta property="og:url" content="https://docs.hayasebot.app" />
-        <meta property="og:image" content="https://docs.hayasebot.app/assets/images/static/eyecatch.webp" />
+        <meta property="og:image" content="https://docs.hayasebot.app/assets/static/eyecatch.webp" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://hayasebot.app/assets/images/static/og.webp" />
+        <meta name="twitter:image" content="https://docs.hayasebot.app/assets/static/eyecatch.webp" />
       </Head>
       <main className={inter.className}>
         <div className="w-full px-8 py-1.5 flex justify-center bg-gradient-to-r from-rose-500 via-purple-500 to-pink-500">
