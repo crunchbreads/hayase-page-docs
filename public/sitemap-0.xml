@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://docs.hayasebot.app</loc><lastmod>2024-10-11T18:28:46.738Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/help</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/initialize</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/premium</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/server-register</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/server-remove</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/set-channel-players</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/set-channel-status</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/commands/set-language</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/arma3</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/armareforger</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/cs2</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/dayz</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/gta5am</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/gta5f</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/gta5r</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/minecraft</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/games/projectzomboid</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/languages</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/quickstart</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://docs.hayasebot.app/troubleshooting</loc><lastmod>2024-10-11T18:28:46.739Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

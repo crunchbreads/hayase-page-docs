@@ -1,15 +1,18 @@
 import { useConfig } from 'nextra-theme-docs';
-import Title from './src/component/Title';
 
 const config = {
   head() {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const { title } = useConfig();
     return (
-      <title>{title} - Hayase 문서</title>
+      <title>{`${title} - Hayase 문서`}</title>
     )
   },
-  logo: Title,
+  logo: (
+    <span className="text-2xl bg-clip-text font-black text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
+      Hayase
+    </span>
+  ),
   project: {
     icon: (
       <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 5 30.67 23.25">

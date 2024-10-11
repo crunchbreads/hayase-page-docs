@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import { Inter } from "next/font/google";
-import Alert from "../component/alert";
 import './globals.css';
 
 const inter = Inter({ subsets: ["latin"] });
- 
+
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -20,7 +19,9 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:image" content="https://hayasebot.app/assets/images/static/og.webp" />
       </Head>
       <main className={inter.className}>
-        <Alert label='현재 알파 테스트 중으로 서비스 불안정이나 오작동의 가능성이 있습니다. 양해 부탁드립니다.' />
+        <div className="w-full px-8 py-1.5 flex justify-center bg-gradient-to-r from-rose-500 via-purple-500 to-pink-500">
+          <span className='select-none text-gray-200 text-md md:text-md font-bold'>현재 알파 테스트 중으로 서비스 불안정이나 오작동의 가능성이 있습니다. 양해 부탁드립니다.</span>
+        </div>
         <Component {...pageProps} />
       </main>
     </>
