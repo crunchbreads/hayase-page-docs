@@ -1,8 +1,16 @@
 import Head from 'next/head';
 import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import './globals.css';
 
 const inter = Inter({ subsets: ["latin"] });
+
+const pretendard = localFont({
+  src: "../../public/assets/font/PretendardVariable.woff2",
+  display: "swap",
+  weight: "45 920",
+  variable: "--font-pretendard",
+});
 
 export default function App({ Component, pageProps }) {
   return (
@@ -18,7 +26,7 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://docs.hayasebot.app/assets/static/eyecatch.webp" />
       </Head>
-      <main className={inter.className}>
+      <main className={pretendard.className}>
         <div className="w-full px-8 py-1.5 flex justify-center bg-gradient-to-r from-rose-500 via-purple-500 to-pink-500">
           <span className='select-none text-gray-200 text-md md:text-md font-bold'>현재 알파 테스트 중으로 서비스 불안정이나 오작동의 가능성이 있습니다. 양해 부탁드립니다.</span>
         </div>
