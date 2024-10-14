@@ -7,4 +7,5 @@ export default {
   'premium': '프리미엄 기간 확인',
   'set-language': '언어 설정',
   'set-channel-players': '채널 설정 (플레이어 카운트)',
+  'setting': '봇 설정 변경',
 }
